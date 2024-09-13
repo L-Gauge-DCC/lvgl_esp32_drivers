@@ -22,7 +22,7 @@ extern "C" {
 /*********************
  *      DEFINES
  *********************/
-
+#define LV_HOR_RES_MAX 320
 /* DISP_BUF_SIZE value doesn't have an special meaning, but it's the size
  * of the buffer(s) passed to LVGL as display buffers. The default values used
  * were the values working for the contributor of the display controller.

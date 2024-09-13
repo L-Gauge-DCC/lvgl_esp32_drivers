@@ -1,0 +1,8 @@
+{
+  "name": "lvgl_esp32_drivers",
+  "version": "0.0.0+20240912221628",
+  "build": {
+    "srcDir": ".",
+    "srcFilter": "+<*> -<lvgl_touch> -<lvgl_tft>"
+  }
+}
